@@ -37,7 +37,7 @@
     "test-js": "node ./scripts/test-js",
     "xcode": "open example/ios/NotificationsExampleApp.xcworkspace",
     "studio": "open -a /Applications/Android\\ Studio.app ./example/android",
-    "prerelease": "npm run build",
+    "prepare": "npm run build",
     "release": "node ./scripts/release",
     "generate-changelog": "gren changelog",
     "docusaurus": "npm start --prefix website",
